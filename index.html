@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AboutSongs - Login</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="source/img/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 
@@ -18,49 +18,43 @@
                     <h2 class="title">Entrar</h2>
                     <div class="input-field">
                         <i class="fas fa-user"></i>
-                        <input type="text" placeholder="Username">
+                        <input type="text" name="username" placeholder="Username" required>
                     </div>
                     <div class="input-field">
                         <i class="fas fa-lock"></i>
-                        <input type="password" placeholder="Password">
+                        <input type="password" name="password" placeholder="Password" required>
                     </div>
                     <input type="submit" class="btn solid" value="Login" />
-                    <p class="social-text"></p>
-                    <div class="social-media">
-                        </a>
-                    </div>
                 </form>
                 <form action="#" class="inscrever-se-form">
                     <h2 class="title">Inscrever-se</h2>
                     <div class="input-field">
                         <i class="fas fa-user"></i>
-                        <input type="text" placeholder="Username">
+                        <input type="text" name="username" placeholder="Username" required>
                     </div>
                     <div class="input-field">
                         <i class="fas fa-envelope"></i>
-                        <input type="email" placeholder="Email">
+                        <input type="email" name="email" placeholder="Email" required>
                     </div>
                     <div class="input-field">
                         <i class="fas fa-lock"></i>
-                        <input type="password" placeholder="Password">
+                        <input type="password" name="password" placeholder="Password" required>
                     </div>
                     <input type="submit" class="btn solid" value="Inscrever" />
-                    <p class="social-text"></p>
-                    </div>
                 </form>
             </div>
             <div class="panels-container">
                 <div class="panel left-panel">
                     <div class="content">
                         <h3>Novo aqui?</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur, magnam nihil.</p>
+                        <p>Fique à vontade para explorar e descobrir nossos serviços.</p>
                         <button class="btn transparent" id="inscrever-se-button">Inscrever-se</button>
                     </div>
                     <img src="" alt="" class="image">
                 </div>
                 <div class="panel right-panel">
                     <div class="content">
-                        <h3>Um de nós</h3>
+                        <h3>Um de nós?</h3>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur, magnam nihil.</p>
                         <button class="btn transparent" id="entrar-button">Entrar</button>
                     </div>
@@ -71,4 +65,5 @@
     </div>
     <script src="app.js"></script>
 </body>
+
 </html>
